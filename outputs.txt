@@ -1,0 +1,403 @@
+1.)Youtube Video : https://www.youtube.com/watch?v=OFmxKgaLN80
+
+(ai_video_assistant) PS C:\Users\sonam\Upgrad-IITKharagpur\MyGENAIProject\ai_video_assistant> & c:\Users\sonam\Upgrad-IITKharagpur\MyGENAIProject\ai_video_assistant\.venv\Scripts\python.exe c:/Users/sonam/Upgrad-IITKharagpur/MyGENAIProject/ai_video_assistant/test.py
+Detected Youtube URL. Downloading audio...
+[youtube] Extracting URL: https://www.youtube.com/watch?v=OFmxKgaLN80 
+[youtube] OFmxKgaLN80: Downloading webpage 
+[youtube] OFmxKgaLN80: Downloading android vr player API JSON 
+[youtube] Extracting URL: https://www.youtube.com/watch?v=OFmxKgaLN80 
+[youtube] OFmxKgaLN80: Downloading webpage 
+[youtube] OFmxKgaLN80: Downloading android vr player API JSON 
+[info] OFmxKgaLN80: Downloading 1 format(s): 251 
+[download] Destination: mydownloads\Why Companies Are Quietly Rehiring Software Engineers.webm 
+[download] 100% of    9.37MiB in 00:00:00 at 11.65MiB/s 
+Converting downloaded audio to WAV...
+Chunking audio...
+Audio Ready - 1 chunk(s) created.
+Using Whisper for transcription
+Transcribing... chunk 1/1...
+loading model...
+Whisper model loaded successfully
+C:\Users\sonam\Upgrad-IITKharagpur\MyGENAIProject\ai_video_assistant\.venv\Lib\site-packages\whisper\transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+Transcription completed..
+
+================================================================================
+Full Transcript of Video 
+ 
+======================================================================
+By 2030, 90% of developers would be replaced by AI. Those were the experts estimates a few years ago, but today, the reality is very different. Gartner just said that 50% of companies who laid off workers because of AI will rehire for the exact same roles by 2027. So far in 2026, software engineer hiring is skyrocketing. It's true that it could wreak havoc, but I think it's much more likely to reshape jobs erase them altogether. But this is not necessarily because companies are not using AI, but...
+
+============================================================
+📌 TITLE: AI's Impact on Developer Roles
+============================================================
+
+📋 SUMMARY
+------------------------------------------------------------
+### **Final Professional Meeting Summary: AI in Software Development – Challenges and Strategic Shifts**
+
+#### **Key Insights on AI’s Role in Software Development**
+- **Initial Expectations vs. Reality:**
+  - Early predictions suggested AI would replace **90% of developers by 2030**, but this has not materialized.
+  - **Gartner predicts** that **50% of companies** that laid off workers due to AI will **rehire by 2027**, indicating a correction in AI-driven workforce strategies.
+
+- **AI’s Limitations in Coding:**
+  - AI-generated code often contains **flaws**, requiring **significant human correction** (studies show AI can slow even experienced engineers by **19%**).
+  - **Error rates** in AI-generated code are **1.7x higher** than human-written code.
+  - AI increases **system complexity**, with up to **38% more code to maintain**.
+  - **AI struggles with business context**, leading to **compatibility issues** in **40% of teams**.
+  - **AI fails to self-correct effectively** (fails in **over 60% of cases**), unlike human developers.
+  - **Developer trust in AI-generated code is low** (only **4% fully trust it**), shifting focus from innovation to **supervision and debugging**.
+
+#### **Impact on Productivity and Costs**
+- AI has led to a **decline in real productivity** and **increased costs** for companies.
+- **Major tech companies (Google, Amazon, Meta)** are **reconsidering AI-driven coding** due to inefficiencies and rising expenses.
+- **Microsoft and Google** have found that AI-driven coding **increases costs rather than reducing them**.
+
+#### **Workforce and Hiring Trends**
+- **Tech layoffs since 2024:**
+  - **Amazon, Meta, and Microsoft** have laid off **~124,000 developers**, betting on AI automation.
+  - **Incidents like Amazon’s AI-induced critical errors** highlight AI’s limitations, reinforcing the need for **human oversight**.
+- **Shift toward senior developers:**
+  - Companies are **rehiring experienced developers** (boomerang hiring) to **supervise AI and refine code**.
+  - **Up to 40% of new hires** are senior developers capable of managing AI-generated code.
+  - **54% of firms plan to hire more senior developers** while reducing junior roles.
+- **Google’s rehiring strategy (2025):**
+  - Rehired **~20% of former software engineers** to improve **AI supervision and code quality**.
+
+#### **Strategic Adjustments by Major Tech Firms**
+- **Reevaluating AI investments:**
+  - Companies are **scaling back AI-driven coding initiatives** due to inefficiencies.
+  - Focus is shifting toward **human-AI collaboration** rather than full automation.
+- **Emphasis on human oversight:**
+  - **Senior developers are critical** for reviewing, correcting, and integrating AI-generated code.
+  - **AI is treated as a tool, not a replacement**, for complex software development tasks.
+
+#### **Future Outlook**
+- **AI will not fully replace developers** but will **augment their work**, requiring **stronger human oversight**.
+- **Companies are prioritizing experience** over junior roles to manage AI’s shortcomings.
+- **The return on AI coding investment is uneven**, with **longer-term benefits** expected rather than immediate cost savings.
+
+### **Conclusion**
+While AI has transformed software development, its **limitations in accuracy, context understanding, and self-correction** necessitate **strong human involvement**. Companies are **adjusting strategies**, **rehiring experienced talent**, and **shifting focus from full automation to collaboration** between AI and developers. The tech industry is recognizing that **AI is a tool to enhance—not replace—human expertise** in software engineering.
+
+============================================================
+✅ ACTION ITEMS
+============================================================
+Here are the extracted action items from the meeting transcript:
+
+1. **Companies should reconsider their strategy of replacing software developers entirely with AI** due to the increased costs and errors associated with AI-generated code.
+
+2. **Tech companies that laid off software developers should rehire experienced developers**, particularly those who were previously employed by the company (boomerang hiring), to address the limitations of AI-generated code and maintain system integrity.
+
+3. **Increase hiring of senior developers** to review, debug, and refine AI-generated code, as well as to provide business context and strategic decision-making that AI lacks.
+
+4. **Reduce reliance on junior developers for basic programming tasks**, as these can be handled by AI tools, and instead focus on hiring experienced developers for more complex roles.
+
+5. **Invest in training and upskilling existing developers** to adapt to the changing landscape where AI tools are prevalent but require human supervision and correction.
+
+6. **Improve AI tools to better understand business context and reduce errors**, particularly those related to compatibility issues when integrating AI-generated code into existing systems.
+
+7. **Conduct further research and studies** to better understand the limitations of AI-generated code and its impact on productivity, costs, and system complexity.
+
+8. **Monitor and evaluate the performance of AI coding tools** regularly to ensure they are meeting the intended productivity and cost-saving goals, and adjust strategies as needed.
+
+9. **Communicate transparently with employees and the public** about the role of AI in the company's operations and workforce decisions to maintain trust and manage expectations.
+
+10. **Develop strategies to integrate boomerang hires** smoothly back into the company, leveraging their prior experience and knowledge of internal systems to address complex errors and improve overall productivity.
+
+============================================================
+🔑 KEY DECISIONS
+============================================================
+### Key Decisions Made:
+
+1. **Rehiring of Laid-Off Software Engineers**: Companies are quietly rehiring software engineers, particularly those with experience, to supervise AI-generated code and address its limitations.
+2. **Increased Hiring of Senior Developers**: Over 54% of companies plan to hire more senior developers while reducing junior positions, reflecting a shift toward experienced talent to handle AI-generated code issues.
+3. **Boomerang Hiring Trend**: Up to 4 out of 10 new hires are former employees (boomerang hires), leveraging their familiarity with internal systems to detect complex errors that AI fails to identify.
+4. **Reduction in Junior Hiring**: Many companies are reducing junior hiring due to AI's capability to handle basic programming tasks traditionally assigned to novice developers.
+5. **Reevaluation of AI Coding Tools**: Companies like Google, Amazon, and Meta are reconsidering their initial strategy of fully automating code generation due to increased errors, maintenance costs, and system complexity.
+6. **Focus on Code Supervision**: Developers are increasingly tasked with supervising AI-generated code, leading to a decline in real productivity and an increase in operational costs.
+
+============================================================
+❓ OPEN QUESTIONS
+============================================================
+Here are the unresolved questions or topics needing follow-up extracted from the transcript:
+
+1. **What specific measures are companies taking to address the 1.7 times higher error rate in AI-generated code compared to human-written code?**
+2. **How are companies planning to balance the increased maintenance burden (38% more code to maintain) caused by AI-generated code?**
+3. **What strategies are being implemented to mitigate the lack of business context understanding in AI-generated code, which accounts for over 50% of errors?**
+4. **How are companies addressing the 60% failure rate of AI models to self-correct even when prompted to review their own code?**
+5. **What long-term plans do companies have to reduce their reliance on senior developers for AI-generated code supervision, given the current trends?**
+6. **How are companies ensuring that the rehiring of former employees (boomerang hiring) is sustainable and beneficial in the long run?**
+7. **What are the exact criteria or benchmarks companies are using to determine which junior roles can be fully replaced by AI and which require human oversight?**
+8. **How are companies measuring the real productivity decline (49% of teams reported a decrease) and what corrective actions are being taken?**
+9. **What is the expected timeline for companies to stabilize their AI integration strategies and see consistent productivity improvements?**
+10. **Are there any regulatory or ethical considerations being discussed regarding the use of AI in software development and its impact on employment?**
+
+
+2.) Youtube Video Url : "https://www.youtube.com/watch?v=_Q-e_nczWqM"
+
+S C:\Users\sonam\Upgrad-IITKharagpur\MyGENAIProject\ai_video_assistant> (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& c:\Users\sonam\Upgrad-IITKharagpur\MyGENAIProject\ai_video_assistant\.venv\Scripts\Activate.ps1)
+(ai_video_assistant) PS C:\Users\sonam\Upgrad-IITKharagpur\MyGENAIProject\ai_video_assistant> & c:\Users\sonam\Upgrad-IITKharagpur\MyGENAIProject\ai_video_assistant\.venv\Scripts\python.exe c:/Users/sonam/Upgrad-IITKharagpur/MyGENAIProject/ai_video_assistant/test.py
+Detected Youtube URL. Downloading audio...
+[youtube] Extracting URL: https://www.youtube.com/watch?v=_Q-e_nczWqM 
+[youtube] _Q-e_nczWqM: Downloading webpage 
+[youtube] _Q-e_nczWqM: Downloading android vr player API JSON 
+[info] _Q-e_nczWqM: Downloading 1 format(s): 251 
+[download] Destination: mydownloads\The AI Economy is about to change.webm 
+[download] 100% of    7.89MiB in 00:00:00 at 12.12MiB/s 
+Converting downloaded audio to WAV...
+Chunking audio...
+Audio Ready - 1 chunk(s) created.
+Using Whisper for transcription
+Transcribing... chunk 1/1...
+loading model...
+Whisper model loaded successfully
+C:\Users\sonam\Upgrad-IITKharagpur\MyGENAIProject\ai_video_assistant\.venv\Lib\site-packages\whisper\transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+Transcription completed..
+
+================================================================================
+Full Transcript of Video 
+ 
+======================================================================
+All right fellas, it's happening. The cracks are starting to show. The foundations looking a little bit shaky. I'm talking about the AI economy, the token economy. The first one comes courtesy of course of Anthropic. Everybody's favorite. The good guys, am I right? I love their lawyers. What ended up happening just a couple days ago is Anthropic did something called a painted door test. At least that's the term I've always heard. I think I've seen other people use fake door test where you actual...
+
+============================================================
+📌 TITLE: AI Economy Cracks: Anthropic's Pricing Test
+============================================================
+
+📋 SUMMARY
+------------------------------------------------------------
+Here’s the final professional meeting summary in bullet points:
+
+### **Key Discussion Points & Summary**
+
+- **Anthropic’s Revenue Strategy & Financial Challenges**
+  - Conducted a "painted door test" by removing access to **Claude Code** from their $20 plan, pushing users to upgrade to a $100/month plan to boost revenue.
+  - Highlighted Anthropic’s financial struggles, with competitors like **OpenAI** requiring massive investments ($120B) to sustain losses.
+  - Compared Anthropic’s pricing model to a flawed business analogy (e.g., a shoe store ignoring production costs).
+
+- **Microsoft’s Pricing Shift for GitHub Copilot**
+  - Microsoft transitioned from **fixed actions to token-based pricing**, reflecting varying model costs (e.g., cheaper vs. expensive models like Opus 4.7).
+  - Goal: Improve economic viability by aligning pricing with actual usage and model expenses.
+
+- **AI Tooling & Market Saturation Concerns**
+  - Criticized **Microsoft and Anthropic** for prioritizing profitability over innovation, despite Microsoft’s financial stability.
+  - Noted **Google’s massive AI investments** ($100B+ annually) and its ability to absorb losses without investor backlash.
+  - Highlighted **AI’s high operational costs** (e.g., Uber burning its annual AI budget in months) and questioned the long-term economic sustainability of AI tools.
+
+- **Job Replacement & AI Adoption**
+  - Acknowledged the controversial impact of AI on jobs but framed it as a necessary step for companies to raise capital.
+  - Expressed mixed feelings—appreciating AI’s convenience while still valuing traditional coding.
+  - Emphasized the **privilege of modern technology** compared to historical hardships and the excitement of building with AI.
+
+- **AI as a Learning & Development Tool**
+  - Promoted **CodeRabbit**, an AI code review tool, as a faster and more efficient alternative to traditional methods.
+  - Introduced **"Tokenogen"**, encouraging the use of AI for personalized learning (e.g., explaining open-source code).
+
+- **Closing Remarks**
+  - Mocked hyperbolic AI marketing and dismissed exaggerated claims of job replacement as manipulative hype.
+  - Ended on a positive note, framing AI as a tool for innovation and accessibility.
+
+This summary consolidates the key themes while maintaining a professional and structured format.
+
+============================================================
+✅ ACTION ITEMS
+============================================================
+Here are the extracted **action items** from the meeting transcript:
+
+1. **Anthropic** should evaluate the impact of their pricing strategy (removing Claude code usage from the $20 plan) to determine if the revenue gains justify customer losses.
+2. **OpenAI** must assess their financial sustainability given their $120 billion investment and high monthly burn rate ($5–7 billion/month), necessitating revenue adjustments.
+3. **Microsoft (GitHub Copilot)** should monitor the token-based pricing model’s effectiveness and adjust as needed to balance cost and user accessibility.
+4. **Uber** needs to review their AI usage policy to prevent excessive spending (e.g., burning a year’s budget in 4 months) and ensure economic viability.
+5. **Google** should continue investing in AI ($100+ billion/year) while maintaining profitability, leveraging their financial stability to compete long-term.
+6. **Tech leaders (e.g., Dario, Sam)** should temper AI hype and avoid overpromising job displacement to align with realistic adoption timelines.
+7. **Developers** should explore practical AI use cases (e.g., personalized documentation) to maximize efficiency without over-reliance on expensive models.
+8. **CodeRabbit** (or similar tools) should promote their services (e.g., coderabbit.ai) as a cost-effective alternative for code review automation.
+
+*Note: Some items are strategic recommendations inferred from the discussion rather than explicit directives.*
+
+============================================================
+🔑 KEY DECISIONS
+============================================================
+### Key Decisions Extracted:
+
+1. **Anthropic's Pricing Test**: Anthropic conducted a "painted door test" by removing Claude code usage from their $20 plan, effectively tricking some users into paying $100/month for access.
+2. **Microsoft's GitHub Copilot Pricing Change**: Microsoft transitioned GitHub Copilot from a fixed number of actions to token-based usage, making it more economically viable by accounting for the varying costs of different AI models.
+
+============================================================
+❓ OPEN QUESTIONS
+============================================================
+No open questions found.
+(ai_video_assistant) PS C:\Users\sonam\Upgrad-IITKharagpur\MyGENAIProject\ai_video_assistant> 
+
+
+3.) Youtube video url = "https://www.youtube.com/watch?v=VlSdTbrvNRw"
+
+_assistant/test.py
+Detected Youtube URL. Downloading audio...
+[youtube] Extracting URL: https://www.youtube.com/watch?v=VlSdTbrvNRw 
+[youtube] VlSdTbrvNRw: Downloading webpage 
+[youtube] VlSdTbrvNRw: Downloading android vr player API JSON 
+[youtube] Extracting URL: https://www.youtube.com/watch?v=VlSdTbrvNRw 
+[youtube] VlSdTbrvNRw: Downloading webpage 
+[youtube] VlSdTbrvNRw: Downloading android vr player API JSON 
+[info] VlSdTbrvNRw: Downloading 1 format(s): 251 
+[download] Destination: mydownloads\AI in the Boardroom： Use, Risk and Governance ｜ AGS 2026.webm 
+[download] 100% of    7.89MiB in 00:00:04 at 1.68MiB/s 
+Converting downloaded audio to WAV...
+Chunking audio...
+Audio Ready - 2 chunk(s) created.
+
+⏱ Audio processing: 9.19 sec
+Using Whisper for transcription
+Transcribing... chunk 1/2...
+loading model...
+Whisper model loaded successfully
+C:\Users\sonam\Upgrad-IITKharagpur\MyGENAIProject\ai_video_assistant\.venv\Lib\site-packages\whisper\transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+Transcribing... chunk 2/2...
+Transcription completed..
+⏱ Transcription: 110.85 sec
+
+================================================================================
+Full Transcript of Video 
+ 
+======================================================================
+Hello everyone and welcome back. I hope you're enjoying morning tea. Why don't you come a little closer? We've got a great conversation about to happen. As AI tools become more common in board workflows, the question is no longer whether to use them, but how to use them responsibly. In this session we're going to unpack where AI can genuinely add value across the meeting cycle from agenda planning to minute drafting and director preparation while addressing the governance guardrails that must co...
+⏱ Title generation: 0.70 sec
+⏱ Summary generation: 11.10 sec
+
+============================================================
+📌 TITLE: Responsible AI Integration in Board Governance
+============================================================
+
+📋 SUMMARY
+------------------------------------------------------------
+### **Final Professional Meeting Summary: AI Adoption in Board Workflows**
+
+#### **Key Insights on AI Adoption in Boardrooms**
+- **Growing Adoption:**
+  - 69% of board directors are already using AI tools in 2025, reflecting a significant shift in governance practices.
+  - AI is being integrated into core financial strategies, with a call for organizations to prioritize secure implementation at the highest levels within the next four months.
+
+- **Responsible AI Use:**
+  - **Three Priorities for AI Governance:**
+    1. Establishing clear AI governance frameworks.
+    2. Structuring AI usage to align with organizational goals.
+    3. Setting robust policies and frameworks to ensure ethical and secure deployment.
+  - Boards must balance innovation with risk mitigation, ensuring AI supports—not replaces—human oversight and critical decision-making.
+
+#### **Security & Risk Management**
+- **Security Concerns:**
+  - 41% of Australian directors are wary of AI’s security implications, particularly regarding data retention, access, and storage.
+  - **Mitigation Strategies:**
+    - Use **closed AI tools** (e.g., OnBoard) that rely solely on internal data to avoid exposing confidential information.
+    - Avoid **open AI tools** (e.g., ChatGPT) for sensitive tasks due to risks of accidental data leaks.
+    - Ensure AI tools comply with data protection policies and ethical guidelines.
+
+- **Onboard’s Approach:**
+  - Offers **secure features** such as:
+    - Automated minutes with the ability to delete recordings and transcripts.
+    - Option to disable AI tools, providing flexibility and control over data usage.
+
+#### **Practical Steps for Boards**
+- **Building AI Fluency:**
+  - Directors are encouraged to **experiment with existing AI tools** (e.g., Copilot, Teams transcriptions) to build confidence and understand security implications.
+  - **Key Actions:**
+    - Test AI tools in low-risk scenarios before full-scale adoption.
+    - Train board members on AI’s capabilities and limitations to foster informed decision-making.
+
+- **Policy & Ethical Considerations:**
+  - Boards must **set clear policies** for ethical AI use, including:
+    - Data protection and confidentiality protocols.
+    - Guidelines for AI-assisted tasks (e.g., drafting minutes, summarizing documents).
+    - Ensuring AI enhances governance without compromising human judgment.
+
+#### **Opportunities & Future Trends**
+- **Time-Saving Benefits:**
+  - AI adoption can streamline board workflows, such as:
+    - Automating meeting minutes.
+    - Summarizing board packs for faster decision-making.
+  - **Example Use Cases:**
+    - Agenda creation.
+    - Document summarization.
+    - Transcription of discussions.
+
+- **Investment in AI:**
+  - AI capability investment is increasingly seen as a **core financial strategy**, comparable to past digital transformations.
+  - Boards are urged to **prioritize AI readiness** to stay competitive and secure.
+
+#### **Session Highlights & Next Steps**
+- **Concurrent Sessions Announced:**
+  - *"The Chair-CEO Dynamic: How to Build Trust and Deliver Value."*
+  - *"Boardroom Hypothetical" session.*
+- **Call to Action:**
+  - Boards should **act within the next four months** to integrate AI securely into their governance frameworks.
+  - Encouragement to **experiment, learn, and adapt** AI tools responsibly to enhance board effectiveness.
+
+---
+**Final Note:** The discussion underscores the importance of **proactive, secure, and structured AI adoption** in boardrooms, balancing innovation with governance to drive long-term value.
+⏱ Action items: 3.83 sec
+⏱ Key decisions: 0.52 sec
+⏱ Open questions: 1.49 sec
+
+============================================================
+✅ ACTION ITEMS
+============================================================
+Here are the extracted action items from the meeting transcript:
+
+1. **Board Priorities for AI Adoption**
+   - Boards should prioritize:
+     - **Willingness to adopt AI** while understanding security measures.
+     - **AI governance** to catch up with adoption (e.g., structured use, key policies, and frameworks).
+     - **Secure AI usage** (e.g., closed AI systems that only process internal data).
+
+2. **AI Governance and Security Measures**
+   - Boards should:
+     - Establish **clear policies** for AI use, including data retention, access, and storage (e.g., whether data is kept in Australia or offshore).
+     - Ensure AI tools comply with **cybersecurity and data protection** standards.
+     - Allow directors to **opt out** of AI tools if they feel uncomfortable (e.g., turning off automated minutes).
+
+3. **Pilot Testing and Experimentation**
+   - Directors should:
+     - **Trial and test AI tools** (e.g., Copilot, Teams transcriptions) to build confidence and trust.
+     - Start with **low-risk applications** (e.g., summarizing board materials, drafting minutes).
+
+4. **Ethical Use of AI**
+   - Boards should:
+     - Define **ethical guidelines** for AI use in governance.
+     - Ensure AI is used for **process automation** (e.g., drafting minutes) but not for **critical thinking or decision-making** (human oversight is required).
+
+5. **Strategic Investment in AI**
+   - Boards should:
+     - Include **AI capability investment** as part of their **core financial strategy**.
+     - Discuss AI adoption at the **top level** (e.g., board discussions on secure AI integration within 4 months).
+
+6. **Vendor-Specific Actions (Onboard Example)**
+   - If using Onboard’s AI tools:
+     - Use **closed AI** (secure, internal data processing) for tasks like summarizing board packs or drafting minutes.
+     - Allow directors to **delete recordings/transcripts** after meetings for added security.
+
+7. **Awareness and Education**
+   - Boards should:
+     - Educate directors on **AI risks** (e.g., open AI vs. closed AI, data leaks).
+     - Encourage **open dialogue** about AI adoption challenges (e.g., security concerns).
+
+These action items reflect the key takeaways from Justin Kumar’s discussion on responsible AI adoption in board governance.
+
+============================================================
+🔑 KEY DECISIONS
+============================================================
+No Key decisions found.
+
+============================================================
+❓ OPEN QUESTIONS
+============================================================
+1. What specific policies should organizations implement to ensure the ethical use of AI and protect data security?
+2. What are the key security implications boards should be aware of when adopting AI tools, and how can they mitigate these risks?
+3. How should boards balance the risks and opportunities of AI adoption, particularly in areas like meeting transcription and minute drafting?
+4. What steps can boards take to become more "AI fluid" and build confidence in using AI tools?
+5. Where should investment in AI capability at scale fit within a board's strategic priorities, and how should this be discussed and implemented?
+

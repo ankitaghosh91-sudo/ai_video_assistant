@@ -3,6 +3,9 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.runnables import RunnablePassthrough , RunnableLambda
+from dotenv import load_dotenv
+
+load_dotenv()
 
 import os
 
@@ -48,8 +51,11 @@ def summarize(transcript : str) -> str:
     )
 
     combined_chain = (
-        RunnablePassthrough() | RunnableLambda(lambda x:{"text":x}) | combined_prompt | StrOutputParser()
-    )
+    RunnableLambda(lambda x: {"text": x})
+    | combined_prompt
+    | llm
+    | StrOutputParser()
+)
 
     return combined_chain.invoke(combined)
 

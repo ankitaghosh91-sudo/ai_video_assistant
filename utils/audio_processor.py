@@ -16,43 +16,27 @@ from pydub import AudioSegment
 DOWNLOAD_DIR = "mydownloads"
 os.makedirs(DOWNLOAD_DIR,exist_ok=True)
 
-def download_youtube_audio(url:str)-> str:
-    output_path = os.path.join(DOWNLOAD_DIR,"%(title)s.%(ext)s")
+def download_youtube_audio(url: str) -> str:
+    output_path = os.path.join(
+        DOWNLOAD_DIR,
+        "%(title)s.%(ext)s"
+    )
 
     ydl_opts = {
-        "format":"bestaudio/best",
-        "outtmpl":output_path,
-
-         # Required for current YouTube extraction
-        "js_runtimes": {
-            "deno": {}
-        },
-        
-        "postprocessors": [
-            {
-                "key":"FFmpegExtractAudio",
-                "preferredcodec":"wav",
-                "preferredquality":"192",
-            }
-        ],
-        "quiet":False
-
+        "format": "bestaudio/best",
+        "outtmpl": output_path,
+        "quiet": False,
+        "noplaylist": True,
     }
+
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        info = ydl.extract_info(url, download=True)
-        filename = ydl.prepare_filename(info).replace(".webm",".wav").replace(".m4a",".wav")
-    return filename
+        info = ydl.extract_info(url, download=False)
 
+        downloaded_file = ydl.prepare_filename(info)
 
-try:
-    file = download_youtube_audio(
-        "https://www.youtube.com/watch?v=Lg-meK5IU8Q"
-    )
-    #print("Downloaded file:", file)
+        ydl.download([url])
 
-except Exception as e:
-    print("ERROR TYPE:", type(e).__name__)
-    print("ERROR:", e)
+    return downloaded_file
 
 
 def convert_to_wav(input_path:str)-> str:
@@ -63,8 +47,7 @@ def convert_to_wav(input_path:str)-> str:
     audio.export(output_path,format="wav")
     return output_path
 
-path = convert_to_wav(file)
-print("Path of converted file : ",path)
+
 
 
 # Chunk the audio file
@@ -82,12 +65,15 @@ def chunk_audio(wav_path:str,chunk_minutes:int=10)-> list:
         chunks.append(chunk_path)
     return chunks
 
-print(chunk_audio(path))
+
 
 def process_input(source:str)-> list:
     if source.startswith("http://") or source.startswith("https://"):
         print("Detected Youtube URL. Downloading audio...")
-        wav_path = download_youtube_audio(source)
+        downloaded_audio = download_youtube_audio(source)
+
+        print("Converting downloaded audio to WAV...")
+        wav_path = convert_to_wav(downloaded_audio)
     else:
         print("Detected local file. Converting to wav...")
         wav_path = convert_to_wav(source)
