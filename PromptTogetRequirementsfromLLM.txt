@@ -1,0 +1,2 @@
+I am building an AI Meeting Assistant in Python . The project takes audio from youtube URLs or uploaded files , transcribes it using Local Whisper, translates Hindi to English if needed ,then uses Langchain LCEL with Mistral free API to summarise the meeting and extract action items and key decisions. It also has a RAG Pipeline using ChromaDB and HuggingFace embeddings so the user can chat with their meeting transcript. The UI is built in Streamlit and the user can export results as PDF or TXT.
+Generate a Requirements file for this project.
